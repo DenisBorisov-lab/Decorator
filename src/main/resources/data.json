@@ -1,1 +1,6 @@
-{"coat":false,"pants":false,"socks":true,"sneakers":true}
+{
+  "coat": false,
+  "pants": false,
+  "socks": true,
+  "sneakers": true
+}

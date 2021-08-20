@@ -12,7 +12,7 @@ public class EquipSocks extends DataSourceDecorator {
     }
 
     @Override
-    public Person readData(){
+    public Person readData() {
         return super.readData();
     }
 
@@ -21,7 +21,7 @@ public class EquipSocks extends DataSourceDecorator {
         super.writeData(equip(data));
     }
 
-    public Person equip(Person data){
+    public Person equip(Person data) {
         data.setSocks(true);
         return data;
     }

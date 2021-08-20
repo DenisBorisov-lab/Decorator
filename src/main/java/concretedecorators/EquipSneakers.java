@@ -10,7 +10,7 @@ public class EquipSneakers extends DataSourceDecorator {
     }
 
     @Override
-    public Person readData(){
+    public Person readData() {
         return super.readData();
     }
 
@@ -19,7 +19,7 @@ public class EquipSneakers extends DataSourceDecorator {
         super.writeData(equip(data));
     }
 
-    public Person equip(Person data){
+    public Person equip(Person data) {
         data.setSneakers(true);
         return data;
     }

@@ -3,7 +3,7 @@ package decorator;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class DataSourceDecorator implements DataSource{
+public class DataSourceDecorator implements DataSource {
     private DataSource wrap;
 
 
