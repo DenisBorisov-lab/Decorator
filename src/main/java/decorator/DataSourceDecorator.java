@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 public class DataSourceDecorator implements DataSource {
     private DataSource wrap;
 
-
     @Override
     public void writeData(Person data) {
         wrap.writeData(data);
